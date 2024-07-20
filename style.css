@@ -167,6 +167,7 @@ footer p{
     }
     h2{
         font-size: 18pt;
+        text-align: center;
     }
     .resume-container{
         display: flex;
