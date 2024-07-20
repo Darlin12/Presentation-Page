@@ -1,0 +1,220 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #EEEEEE;
+    margin: 0 auto;
+}
+*{
+    font-family: "PT Serif", serif;
+}
+/**Containers**/
+.hero-container{
+    margin-top: 0%;
+    background-color: #508C9B ;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.resume-container{
+    display: flex;
+    height: 20%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+.projects-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+}
+.projects-cards-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-me-container{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.contact-me-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-container{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.footer-container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 70pt;
+    margin: 0px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.resume-container button{
+    height: 3rem;
+    width: 12rem;
+}
+p{
+    font-size: 18pt;
+    margin: 0px;
+    font-family: "PT Serif", serif;
+}
+h2{
+    font-size: 22pt;
+}
+h1, .hero-container p{
+    color:#EEEEEE;
+}
+.hero-container p{
+    font-style: italic;
+}
+.resume-button{
+    background-color: #508C9B;
+    border-radius: 12px;
+    border: none;
+    height: 20%;
+}
+a{
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 17pt;
+}
+.card{
+    margin: 10px;
+    width: 25%;
+    background-color: #f2f2f2;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2), 0px 0px 15px rgba(0, 0, 0, 0.1); 
+}
+.card p{
+    font-size: small;
+    border-radius: 13px;
+    margin: 2% 5%;
+    
+}
+.card img{
+    width: 90%;
+    padding: 0;
+    margin: 2% 5%;
+    border-radius: 14px;
+}
+.card-button{
+    margin: 5%;
+    background-color: #508C9B;
+    border-radius: 12px;
+    border: none;
+}
+.card-title{
+    margin: 2% 5%;
+    font-size: 18pt;
+}
+.about-me-container img{
+    height: 50%;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2),0px 0px 15px rgba(0, 0, 0, 0.1);;
+}
+.about-me-container p{
+    width:50%;
+    font-size: 12pt;
+    text-align: center;
+}
+.contact-container a, p{
+    color: #606676;
+}
+.email{
+    display: flex;
+    height: 50%;
+}
+.email svg{
+    margin-top: 9px;
+    margin-right: 6px;
+}
+.footer-line{
+    width: 100%;
+    height: 0.5px;
+    background-color: #e0e0e0;
+}
+
+footer p{
+    padding: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px; 
+    color: #333; 
+    text-align: center;
+}
+@media (min-width: 375px) and (max-width:975px) {
+    h1{
+        font-size: 40pt;
+    }
+    h2{
+        font-size: 18pt;
+    }
+    .resume-container{
+        display: flex;
+        height: 20%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 38px;
+        margin-bottom: 35px;
+    }
+    .projects-cards-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .projects-container{
+        height: 230%;      
+    }
+    .card{ 
+        width: 90%;
+    }
+    .about-me-container p{
+        width: 90%;
+        text-align: justify;
+        margin-top: 10px;
+    }
+    .contact-container{
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .contact-me-container h2{
+        font-size: 18pt;
+        text-align: center;
+    }
+    .contact-me-container{
+        margin-top: 20px;
+    }
+    .contact-container p, a{
+       font-size: 12pt;
+    }
+    footer p{
+        font-size: 9pt;
+    }
+}
+
+
