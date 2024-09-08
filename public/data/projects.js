@@ -15,9 +15,9 @@ const projects = [
     },
     {
         id: 3,
-        title: "Project title",
-        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla malesuada leo at luctus dignissim. Etiam a dolor vel felis mattis imperdiet. Cras consectetur urna quis nibh eleifend, eget dictum ligula sollicitudin.",
-        imgUrl: "./images/LaughLabLogo.png"
+        title: "QReate",
+        description:"Qreate is a user-friendly tool that allows you to generate custom QR codes for emails, phone numbers, social media profiles, and more. With a simple interface and instant results, Qreate makes sharing your information fast and easy!",
+        imgUrl: "./images/QReate.png"
     }
 ]
 
