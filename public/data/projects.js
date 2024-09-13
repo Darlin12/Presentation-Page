@@ -17,7 +17,8 @@ const projects = [
         id: 3,
         title: "QReate",
         description:"Qreate is a user-friendly tool that allows you to generate custom QR codes for emails, phone numbers, social media profiles, and more. With a simple interface and instant results, Qreate makes sharing your information fast and easy!",
-        imgUrl: "./images/QReate.png"
+        imgUrl: "./images/QReate.png",
+        url: "https://qreate.darlincasado.lat/"
     }
 ]
 

@@ -6,4 +6,3 @@ const skills_object = {
 
 
 export default skills_object;
-console.log(skills_object.frontend)
