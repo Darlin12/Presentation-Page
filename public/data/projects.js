@@ -4,7 +4,7 @@ const projects = [
         title: "Laugh Lab",
         description:"A fun and interactive project that delivers jokes tailored to the category you choose, offering a quick laugh whenever you need it.",
         imgUrl: "./images/LaughLabLogo.png",
-        url: "https://capstone-project-use-a-public-api-bcbf.onrender.com/"
+        url: "https://laughlab.darlincasado.lat/"
     },
     {
         id: 2,
